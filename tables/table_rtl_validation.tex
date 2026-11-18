@@ -1,0 +1,28 @@
+\begin{tabular}{lllrrrc}\toprule
+Kernel & Compiler & Multiplier & RTL cycles & Sim.\ cycles & Error (\%) & Hash match \\\midrule
+SHAKE256, 1 KB & clang & serial & 143,221 & 143,221 & 0.000 & yes \\
+SHAKE256, 1 KB & clang & embedded & 141,175 & 141,175 & 0.000 & yes \\
+SHAKE256, 1 KB & gcc & serial & 237,528 & 237,528 & 0.000 & yes \\
+SHAKE256, 1 KB & gcc & embedded & 235,544 & 235,544 & 0.000 & yes \\
+ML-KEM NTT+INTT x2 & clang & serial & 796,493 & 796,493 & 0.000 & yes \\
+ML-KEM NTT+INTT x2 & clang & embedded & 240,973 & 240,973 & 0.000 & yes \\
+ML-KEM NTT+INTT x2 & gcc & serial & 787,308 & 787,308 & 0.000 & yes \\
+ML-KEM NTT+INTT x2 & gcc & embedded & 263,532 & 263,532 & 0.000 & yes \\
+ML-DSA NTT+INTT & clang & serial & 436,662 & 436,662 & 0.000 & yes \\
+ML-DSA NTT+INTT & clang & embedded & 119,222 & 119,222 & 0.000 & yes \\
+ML-DSA NTT+INTT & gcc & serial & 396,615 & 396,615 & 0.000 & yes \\
+ML-DSA NTT+INTT & gcc & embedded & 150,599 & 150,599 & 0.000 & yes \\
+ML-KEM-512 K+E+D & clang & serial & 6,794,835 & 6,794,835 & 0.000 & yes \\
+ML-KEM-512 K+E+D & clang & embedded & 3,119,599 & 3,119,599 & 0.000 & yes \\
+ML-KEM-512 K+E+D & gcc & serial & 7,859,259 & 7,859,259 & 0.000 & yes \\
+ML-KEM-512 K+E+D & gcc & embedded & 4,216,635 & 4,216,635 & 0.000 & yes \\
+ML-KEM-768 K+E+D & clang & serial & 10,746,226 & 10,746,226 & 0.000 & yes \\
+ML-KEM-768 K+E+D & clang & embedded & 5,008,963 & 5,008,963 & 0.000 & yes \\
+ML-KEM-768 K+E+D & gcc & serial & 12,524,614 & 12,524,614 & 0.000 & yes \\
+ML-KEM-768 K+E+D & gcc & embedded & 6,836,486 & 6,836,486 & 0.000 & yes \\
+ML-DSA-44 K+S+V & clang & serial & 28,945,594 & 28,945,594 & 0.000 & yes \\
+ML-DSA-44 K+S+V & clang & embedded & 13,534,378 & 13,534,378 & 0.000 & yes \\
+ML-DSA-44 K+S+V & gcc & serial & 30,701,004 & 30,701,004 & 0.000 & yes \\
+ML-DSA-44 K+S+V & gcc & embedded & 18,972,340 & 18,972,340 & 0.000 & yes \\
+\bottomrule
+\end{tabular}

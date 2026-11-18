@@ -1,0 +1,8 @@
+block,ge,ff,lut4,cells,unknown,ram_bits
+pq.kmul/kmred/kbar (ML-KEM modmul),4604,0,1378,3003,,0
+pq.kct/kgs (ML-KEM packed butterfly),5016,0,1584,3277,,0
+pq.dmul (ML-DSA modmul),12806,0,4215,8464,,0
+"pq.keccak (Keccak-f[1600], 1 round/cycle)",42374,1613,9339,25527,,0
+"pq.keccak-ls (lane-serial, state in 2x25x64-bit RAM)",12730,656,3959,6696,,3200
+RV32M 32x32 single-cycle multiplier (reference),10611,0,3310,7055,,0
+"Baseline RV32IM 5-stage core (author's FPGA core, no imem/dmem)",20070,1630,4045,7724,$_SDFFCE_PN0P_,0

@@ -1,0 +1,70 @@
+\begin{tabular}{lllrl}\toprule
+Hardware & Variant & Function & \#input-dep.\ instr. & Operand data \\\midrule
+EarlyMul-any & base & barrett\_reduce & 1 & secret-derived \\
+EarlyMul-any & base & basemul & 5 & secret-derived \\
+EarlyMul-any & base & invntt & 2 & secret-derived \\
+EarlyMul-any & base & montgomery\_reduce & 2 & secret-derived \\
+EarlyMul-any & base & ntt & 1 & secret-derived \\
+EarlyMul-any & base & poly\_compress & 8 & secret-derived \\
+EarlyMul-any & base & poly\_tomsg & 8 & secret-derived \\
+EarlyMul-any & base & polyvec\_compress & 8 & secret-derived \\
+EarlyMul-any & base & polyvec\_decompress & 4 & public (ciphertext u) \\
+EarlyDiv & kslash & poly\_tomsg & 8 & secret-derived \\
+EarlyMul-any & kslash & barrett\_reduce & 1 & secret-derived \\
+EarlyMul-any & kslash & basemul & 5 & secret-derived \\
+EarlyMul-any & kslash & invntt & 2 & secret-derived \\
+EarlyMul-any & kslash & montgomery\_reduce & 2 & secret-derived \\
+EarlyMul-any & kslash & ntt & 1 & secret-derived \\
+EarlyMul-any & kslash & poly\_compress & 8 & secret-derived \\
+EarlyMul-any & kslash & polyvec\_compress & 8 & secret-derived \\
+EarlyMul-any & kslash & polyvec\_decompress & 4 & public (ciphertext u) \\
+EarlyMul-any & m & poly\_compress & 8 & secret-derived \\
+EarlyMul-any & m & poly\_tomsg & 8 & secret-derived \\
+EarlyMul-any & m & polyvec\_compress & 8 & secret-derived \\
+EarlyMul-any & m & polyvec\_decompress & 4 & public (ciphertext u) \\
+EarlyMul-any & all & poly\_compress & 8 & secret-derived \\
+EarlyMul-any & all & poly\_tomsg & 8 & secret-derived \\
+EarlyMul-any & all & polyvec\_compress & 8 & secret-derived \\
+EarlyMul-any & all & polyvec\_decompress & 4 & public (ciphertext u) \\
+EarlyMul-any & allz & polyvec\_decompress & 4 & public (ciphertext u) \\
+EarlyMul-any & prefix & barrett\_reduce & 1 & secret-derived \\
+EarlyMul-any & prefix & basemul & 5 & secret-derived \\
+EarlyMul-any & prefix & invntt & 2 & secret-derived \\
+EarlyMul-any & prefix & montgomery\_reduce & 2 & secret-derived \\
+EarlyMul-any & prefix & ntt & 1 & secret-derived \\
+EarlyMul-any & prefix & polyvec\_compress & 4 & secret-derived \\
+EarlyMul-any & prefix & polyvec\_decompress & 4 & public (ciphertext u) \\
+EarlyDiv & prefix-gccO2 & poly\_compress & 1 & secret-derived \\
+EarlyDiv & prefix-gccO2 & poly\_tomsg & 1 & secret-derived \\
+EarlyDiv & prefix-gccO2 & polyvec\_compress & 1 & secret-derived \\
+EarlyMul-rs2 & prefix-gccO2 & basemul & 4 & secret-derived \\
+EarlyMul-any & prefix-gccO2 & barrett\_reduce & 1 & secret-derived \\
+EarlyMul-any & prefix-gccO2 & basemul & 5 & secret-derived \\
+EarlyMul-any & prefix-gccO2 & invntt & 2 & secret-derived \\
+EarlyMul-any & prefix-gccO2 & montgomery\_reduce & 2 & secret-derived \\
+EarlyMul-any & prefix-gccO2 & ntt & 1 & secret-derived \\
+EarlyMul-any & prefix-gccO2 & polyvec\_decompress & 1 & public (ciphertext u) \\
+EarlyDiv & prefix-gccOs & poly\_compress & 1 & secret-derived \\
+EarlyDiv & prefix-gccOs & poly\_tomsg & 1 & secret-derived \\
+EarlyDiv & prefix-gccOs & polyvec\_compress & 1 & secret-derived \\
+EarlyMul-rs2 & prefix-gccOs & basemul & 4 & secret-derived \\
+EarlyMul-rs2 & prefix-gccOs & invntt & 1 & secret-derived \\
+EarlyMul-any & prefix-gccOs & barrett\_reduce & 1 & secret-derived \\
+EarlyMul-any & prefix-gccOs & basemul & 5 & secret-derived \\
+EarlyMul-any & prefix-gccOs & invntt & 2 & secret-derived \\
+EarlyMul-any & prefix-gccOs & montgomery\_reduce & 2 & secret-derived \\
+EarlyMul-any & prefix-gccOs & ntt & 1 & secret-derived \\
+EarlyMul-any & prefix-gccOs & polyvec\_decompress & 1 & public (ciphertext u) \\
+EarlyMul-rs2 & base-gccO2 & basemul & 4 & secret-derived \\
+EarlyMul-any & base-gccO2 & barrett\_reduce & 1 & secret-derived \\
+EarlyMul-any & base-gccO2 & basemul & 5 & secret-derived \\
+EarlyMul-any & base-gccO2 & invntt & 2 & secret-derived \\
+EarlyMul-any & base-gccO2 & montgomery\_reduce & 2 & secret-derived \\
+EarlyMul-any & base-gccO2 & ntt & 1 & secret-derived \\
+EarlyMul-any & base-gccO2 & polyvec\_compress & 1 & secret-derived \\
+EarlyMul-any & base-gccO2 & polyvec\_decompress & 1 & public (ciphertext u) \\
+EarlyMul-any & all-gccO2 & polyvec\_compress & 1 & secret-derived \\
+EarlyMul-any & all-gccO2 & polyvec\_decompress & 1 & public (ciphertext u) \\
+EarlyMul-any & allz-gccO2 & polyvec\_decompress & 1 & public (ciphertext u) \\
+\bottomrule
+\end{tabular}

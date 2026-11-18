@@ -1,0 +1,174 @@
+scheme,variant,hw,function,n_varlat,n_trial_varying,lat_min,lat_max,operand_class
+ml-kem-512,base,EarlyDiv,(none),0,0,,,
+ml-kem-512,base,EarlyMul-rs2,basemul,5,0,2,3,constant/public tables only
+ml-kem-512,base,EarlyMul-rs2,invntt,1,0,2,3,constant/public tables only
+ml-kem-512,base,EarlyMul-rs2,ntt,1,0,2,3,constant/public tables only
+ml-kem-512,base,EarlyMul-any,barrett_reduce,1,1,2,3,secret-derived
+ml-kem-512,base,EarlyMul-any,basemul,5,5,2,3,secret-derived
+ml-kem-512,base,EarlyMul-any,invntt,2,2,2,3,secret-derived
+ml-kem-512,base,EarlyMul-any,montgomery_reduce,2,2,2,4,secret-derived
+ml-kem-512,base,EarlyMul-any,ntt,1,1,2,3,secret-derived
+ml-kem-512,base,EarlyMul-any,poly_compress,8,8,2,3,secret-derived
+ml-kem-512,base,EarlyMul-any,poly_tomsg,8,8,2,3,secret-derived
+ml-kem-512,base,EarlyMul-any,polyvec_compress,16,16,2,4,secret-derived
+ml-kem-512,base,EarlyMul-any,polyvec_decompress,8,8,2,3,public (ciphertext u)
+ml-kem-512,kslash,EarlyDiv,poly_tomsg,8,8,4,6,secret-derived
+ml-kem-512,kslash,EarlyMul-rs2,basemul,5,0,2,3,constant/public tables only
+ml-kem-512,kslash,EarlyMul-rs2,invntt,1,0,2,3,constant/public tables only
+ml-kem-512,kslash,EarlyMul-rs2,ntt,1,0,2,3,constant/public tables only
+ml-kem-512,kslash,EarlyMul-any,barrett_reduce,1,1,2,3,secret-derived
+ml-kem-512,kslash,EarlyMul-any,basemul,5,5,2,3,secret-derived
+ml-kem-512,kslash,EarlyMul-any,invntt,2,2,2,3,secret-derived
+ml-kem-512,kslash,EarlyMul-any,montgomery_reduce,2,2,2,4,secret-derived
+ml-kem-512,kslash,EarlyMul-any,ntt,1,1,2,3,secret-derived
+ml-kem-512,kslash,EarlyMul-any,poly_compress,8,8,2,3,secret-derived
+ml-kem-512,kslash,EarlyMul-any,polyvec_compress,16,16,2,4,secret-derived
+ml-kem-512,kslash,EarlyMul-any,polyvec_decompress,8,8,2,3,public (ciphertext u)
+ml-kem-512,m,EarlyDiv,(none),0,0,,,
+ml-kem-512,m,EarlyMul-rs2,(none),0,0,,,
+ml-kem-512,m,EarlyMul-any,poly_compress,8,8,2,3,secret-derived
+ml-kem-512,m,EarlyMul-any,poly_tomsg,8,8,2,3,secret-derived
+ml-kem-512,m,EarlyMul-any,polyvec_compress,16,16,2,4,secret-derived
+ml-kem-512,m,EarlyMul-any,polyvec_decompress,8,8,2,3,public (ciphertext u)
+ml-kem-512,all,EarlyDiv,(none),0,0,,,
+ml-kem-512,all,EarlyMul-rs2,(none),0,0,,,
+ml-kem-512,all,EarlyMul-any,poly_compress,8,8,2,3,secret-derived
+ml-kem-512,all,EarlyMul-any,poly_tomsg,8,8,2,3,secret-derived
+ml-kem-512,all,EarlyMul-any,polyvec_compress,16,16,2,4,secret-derived
+ml-kem-512,all,EarlyMul-any,polyvec_decompress,8,8,2,3,public (ciphertext u)
+ml-kem-512,allz,EarlyDiv,(none),0,0,,,
+ml-kem-512,allz,EarlyMul-rs2,(none),0,0,,,
+ml-kem-512,allz,EarlyMul-any,polyvec_decompress,8,8,2,3,public (ciphertext u)
+ml-kem-768,base,EarlyDiv,(none),0,0,,,
+ml-kem-768,base,EarlyMul-rs2,basemul,5,0,2,3,constant/public tables only
+ml-kem-768,base,EarlyMul-rs2,invntt,1,0,2,3,constant/public tables only
+ml-kem-768,base,EarlyMul-rs2,ntt,1,0,2,3,constant/public tables only
+ml-kem-768,base,EarlyMul-any,barrett_reduce,1,1,2,3,secret-derived
+ml-kem-768,base,EarlyMul-any,basemul,5,5,2,3,secret-derived
+ml-kem-768,base,EarlyMul-any,invntt,2,2,2,3,secret-derived
+ml-kem-768,base,EarlyMul-any,montgomery_reduce,2,2,2,4,secret-derived
+ml-kem-768,base,EarlyMul-any,ntt,1,1,2,3,secret-derived
+ml-kem-768,base,EarlyMul-any,poly_compress,8,8,2,3,secret-derived
+ml-kem-768,base,EarlyMul-any,poly_tomsg,8,8,2,3,secret-derived
+ml-kem-768,base,EarlyMul-any,polyvec_compress,8,8,2,4,secret-derived
+ml-kem-768,base,EarlyMul-any,polyvec_decompress,4,4,2,3,public (ciphertext u)
+ml-kem-768,kslash,EarlyDiv,poly_tomsg,8,8,4,6,secret-derived
+ml-kem-768,kslash,EarlyMul-rs2,basemul,5,0,2,3,constant/public tables only
+ml-kem-768,kslash,EarlyMul-rs2,invntt,1,0,2,3,constant/public tables only
+ml-kem-768,kslash,EarlyMul-rs2,ntt,1,0,2,3,constant/public tables only
+ml-kem-768,kslash,EarlyMul-any,barrett_reduce,1,1,2,3,secret-derived
+ml-kem-768,kslash,EarlyMul-any,basemul,5,5,2,3,secret-derived
+ml-kem-768,kslash,EarlyMul-any,invntt,2,2,2,3,secret-derived
+ml-kem-768,kslash,EarlyMul-any,montgomery_reduce,2,2,2,4,secret-derived
+ml-kem-768,kslash,EarlyMul-any,ntt,1,1,2,3,secret-derived
+ml-kem-768,kslash,EarlyMul-any,poly_compress,8,8,2,3,secret-derived
+ml-kem-768,kslash,EarlyMul-any,polyvec_compress,8,8,2,4,secret-derived
+ml-kem-768,kslash,EarlyMul-any,polyvec_decompress,4,4,2,3,public (ciphertext u)
+ml-kem-768,m,EarlyDiv,(none),0,0,,,
+ml-kem-768,m,EarlyMul-rs2,(none),0,0,,,
+ml-kem-768,m,EarlyMul-any,poly_compress,8,8,2,3,secret-derived
+ml-kem-768,m,EarlyMul-any,poly_tomsg,8,8,2,3,secret-derived
+ml-kem-768,m,EarlyMul-any,polyvec_compress,8,8,2,4,secret-derived
+ml-kem-768,m,EarlyMul-any,polyvec_decompress,4,4,2,3,public (ciphertext u)
+ml-kem-768,all,EarlyDiv,(none),0,0,,,
+ml-kem-768,all,EarlyMul-rs2,(none),0,0,,,
+ml-kem-768,all,EarlyMul-any,poly_compress,8,8,2,3,secret-derived
+ml-kem-768,all,EarlyMul-any,poly_tomsg,8,8,2,3,secret-derived
+ml-kem-768,all,EarlyMul-any,polyvec_compress,8,8,2,4,secret-derived
+ml-kem-768,all,EarlyMul-any,polyvec_decompress,4,4,2,3,public (ciphertext u)
+ml-kem-768,allz,EarlyDiv,(none),0,0,,,
+ml-kem-768,allz,EarlyMul-rs2,(none),0,0,,,
+ml-kem-768,allz,EarlyMul-any,polyvec_decompress,4,4,2,3,public (ciphertext u)
+ml-kem-1024,base,EarlyDiv,(none),0,0,,,
+ml-kem-1024,base,EarlyMul-rs2,basemul,5,0,2,3,constant/public tables only
+ml-kem-1024,base,EarlyMul-rs2,invntt,1,0,2,3,constant/public tables only
+ml-kem-1024,base,EarlyMul-rs2,ntt,1,0,2,3,constant/public tables only
+ml-kem-1024,base,EarlyMul-any,barrett_reduce,1,1,2,3,secret-derived
+ml-kem-1024,base,EarlyMul-any,basemul,5,5,2,3,secret-derived
+ml-kem-1024,base,EarlyMul-any,invntt,2,2,2,3,secret-derived
+ml-kem-1024,base,EarlyMul-any,montgomery_reduce,2,2,2,5,secret-derived
+ml-kem-1024,base,EarlyMul-any,ntt,1,1,2,3,secret-derived
+ml-kem-1024,base,EarlyMul-any,poly_compress,8,8,2,3,secret-derived
+ml-kem-1024,base,EarlyMul-any,poly_tomsg,8,8,2,3,secret-derived
+ml-kem-1024,base,EarlyMul-any,polyvec_compress,16,16,2,4,secret-derived
+ml-kem-1024,base,EarlyMul-any,polyvec_decompress,8,8,2,3,public (ciphertext u)
+ml-kem-1024,kslash,EarlyDiv,poly_tomsg,8,8,4,6,secret-derived
+ml-kem-1024,kslash,EarlyMul-rs2,basemul,5,0,2,3,constant/public tables only
+ml-kem-1024,kslash,EarlyMul-rs2,invntt,1,0,2,3,constant/public tables only
+ml-kem-1024,kslash,EarlyMul-rs2,ntt,1,0,2,3,constant/public tables only
+ml-kem-1024,kslash,EarlyMul-any,barrett_reduce,1,1,2,3,secret-derived
+ml-kem-1024,kslash,EarlyMul-any,basemul,5,5,2,3,secret-derived
+ml-kem-1024,kslash,EarlyMul-any,invntt,2,2,2,3,secret-derived
+ml-kem-1024,kslash,EarlyMul-any,montgomery_reduce,2,2,2,5,secret-derived
+ml-kem-1024,kslash,EarlyMul-any,ntt,1,1,2,3,secret-derived
+ml-kem-1024,kslash,EarlyMul-any,poly_compress,8,8,2,3,secret-derived
+ml-kem-1024,kslash,EarlyMul-any,polyvec_compress,16,16,2,4,secret-derived
+ml-kem-1024,kslash,EarlyMul-any,polyvec_decompress,8,8,2,3,public (ciphertext u)
+ml-kem-1024,m,EarlyDiv,(none),0,0,,,
+ml-kem-1024,m,EarlyMul-rs2,(none),0,0,,,
+ml-kem-1024,m,EarlyMul-any,poly_compress,8,8,2,3,secret-derived
+ml-kem-1024,m,EarlyMul-any,poly_tomsg,8,8,2,3,secret-derived
+ml-kem-1024,m,EarlyMul-any,polyvec_compress,16,16,2,4,secret-derived
+ml-kem-1024,m,EarlyMul-any,polyvec_decompress,8,8,2,3,public (ciphertext u)
+ml-kem-1024,all,EarlyDiv,(none),0,0,,,
+ml-kem-1024,all,EarlyMul-rs2,(none),0,0,,,
+ml-kem-1024,all,EarlyMul-any,poly_compress,8,8,2,3,secret-derived
+ml-kem-1024,all,EarlyMul-any,poly_tomsg,8,8,2,3,secret-derived
+ml-kem-1024,all,EarlyMul-any,polyvec_compress,16,16,2,4,secret-derived
+ml-kem-1024,all,EarlyMul-any,polyvec_decompress,8,8,2,3,public (ciphertext u)
+ml-kem-1024,allz,EarlyDiv,(none),0,0,,,
+ml-kem-1024,allz,EarlyMul-rs2,(none),0,0,,,
+ml-kem-1024,allz,EarlyMul-any,polyvec_decompress,8,8,2,3,public (ciphertext u)
+ml-kem-768,prefix,EarlyDiv,(none),0,0,,,
+ml-kem-768,prefix,EarlyMul-rs2,basemul,5,0,2,3,constant/public tables only
+ml-kem-768,prefix,EarlyMul-rs2,invntt,1,0,2,3,constant/public tables only
+ml-kem-768,prefix,EarlyMul-rs2,ntt,1,0,2,3,constant/public tables only
+ml-kem-768,prefix,EarlyMul-any,barrett_reduce,1,1,2,3,secret-derived
+ml-kem-768,prefix,EarlyMul-any,basemul,5,5,2,3,secret-derived
+ml-kem-768,prefix,EarlyMul-any,invntt,2,2,2,3,secret-derived
+ml-kem-768,prefix,EarlyMul-any,montgomery_reduce,2,2,2,4,secret-derived
+ml-kem-768,prefix,EarlyMul-any,ntt,1,1,2,3,secret-derived
+ml-kem-768,prefix,EarlyMul-any,polyvec_compress,4,4,4,5,secret-derived
+ml-kem-768,prefix,EarlyMul-any,polyvec_decompress,4,4,2,3,public (ciphertext u)
+ml-kem-768,prefix-gccO2,EarlyDiv,poly_compress,1,1,4,8,secret-derived
+ml-kem-768,prefix-gccO2,EarlyDiv,poly_tomsg,1,1,4,6,secret-derived
+ml-kem-768,prefix-gccO2,EarlyDiv,polyvec_compress,1,1,4,14,secret-derived
+ml-kem-768,prefix-gccO2,EarlyMul-rs2,basemul,5,4,2,3,secret-derived
+ml-kem-768,prefix-gccO2,EarlyMul-rs2,invntt,1,0,2,3,constant/public tables only
+ml-kem-768,prefix-gccO2,EarlyMul-rs2,ntt,1,0,2,3,constant/public tables only
+ml-kem-768,prefix-gccO2,EarlyMul-any,barrett_reduce,1,1,2,3,secret-derived
+ml-kem-768,prefix-gccO2,EarlyMul-any,basemul,5,5,2,3,secret-derived
+ml-kem-768,prefix-gccO2,EarlyMul-any,invntt,2,2,2,3,secret-derived
+ml-kem-768,prefix-gccO2,EarlyMul-any,montgomery_reduce,2,2,2,3,secret-derived
+ml-kem-768,prefix-gccO2,EarlyMul-any,ntt,1,1,2,3,secret-derived
+ml-kem-768,prefix-gccO2,EarlyMul-any,polyvec_decompress,1,1,2,3,public (ciphertext u)
+ml-kem-768,prefix-gccOs,EarlyDiv,poly_compress,1,1,4,8,secret-derived
+ml-kem-768,prefix-gccOs,EarlyDiv,poly_tomsg,1,1,4,6,secret-derived
+ml-kem-768,prefix-gccOs,EarlyDiv,polyvec_compress,1,1,4,14,secret-derived
+ml-kem-768,prefix-gccOs,EarlyMul-rs2,basemul,5,4,2,3,secret-derived
+ml-kem-768,prefix-gccOs,EarlyMul-rs2,invntt,1,1,2,3,secret-derived
+ml-kem-768,prefix-gccOs,EarlyMul-rs2,ntt,1,0,2,3,constant/public tables only
+ml-kem-768,prefix-gccOs,EarlyMul-any,barrett_reduce,1,1,2,3,secret-derived
+ml-kem-768,prefix-gccOs,EarlyMul-any,basemul,5,5,2,3,secret-derived
+ml-kem-768,prefix-gccOs,EarlyMul-any,invntt,2,2,2,3,secret-derived
+ml-kem-768,prefix-gccOs,EarlyMul-any,montgomery_reduce,2,2,2,3,secret-derived
+ml-kem-768,prefix-gccOs,EarlyMul-any,ntt,1,1,2,3,secret-derived
+ml-kem-768,prefix-gccOs,EarlyMul-any,polyvec_decompress,1,1,2,3,public (ciphertext u)
+ml-kem-768,base-gccO2,EarlyDiv,(none),0,0,,,
+ml-kem-768,base-gccO2,EarlyMul-rs2,basemul,5,4,2,3,secret-derived
+ml-kem-768,base-gccO2,EarlyMul-rs2,invntt,1,0,2,3,constant/public tables only
+ml-kem-768,base-gccO2,EarlyMul-rs2,ntt,1,0,2,3,constant/public tables only
+ml-kem-768,base-gccO2,EarlyMul-any,barrett_reduce,1,1,2,3,secret-derived
+ml-kem-768,base-gccO2,EarlyMul-any,basemul,5,5,2,3,secret-derived
+ml-kem-768,base-gccO2,EarlyMul-any,invntt,2,2,2,3,secret-derived
+ml-kem-768,base-gccO2,EarlyMul-any,montgomery_reduce,2,2,2,3,secret-derived
+ml-kem-768,base-gccO2,EarlyMul-any,ntt,1,1,2,3,secret-derived
+ml-kem-768,base-gccO2,EarlyMul-any,polyvec_compress,1,1,4,5,secret-derived
+ml-kem-768,base-gccO2,EarlyMul-any,polyvec_decompress,1,1,2,3,public (ciphertext u)
+ml-kem-768,all-gccO2,EarlyDiv,(none),0,0,,,
+ml-kem-768,all-gccO2,EarlyMul-rs2,(none),0,0,,,
+ml-kem-768,all-gccO2,EarlyMul-any,polyvec_compress,1,1,4,5,secret-derived
+ml-kem-768,all-gccO2,EarlyMul-any,polyvec_decompress,1,1,2,3,public (ciphertext u)
+ml-kem-768,allz-gccO2,EarlyDiv,(none),0,0,,,
+ml-kem-768,allz-gccO2,EarlyMul-rs2,(none),0,0,,,
+ml-kem-768,allz-gccO2,EarlyMul-any,polyvec_decompress,1,1,2,3,public (ciphertext u)

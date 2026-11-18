@@ -1,0 +1,45 @@
+{
+ "pq_kmont": {
+  "ge": 4604,
+  "ff": 0,
+  "lut4": 1378,
+  "cells": 3003,
+  "unknown": ""
+ },
+ "pq_kbfly": {
+  "ge": 5016,
+  "ff": 0,
+  "lut4": 1584,
+  "cells": 3277,
+  "unknown": ""
+ },
+ "pq_dmont": {
+  "ge": 12806,
+  "ff": 0,
+  "lut4": 4215,
+  "cells": 8464,
+  "unknown": ""
+ },
+ "pq_keccak": {
+  "ge": 42374,
+  "ff": 1613,
+  "lut4": 9339,
+  "cells": 25527,
+  "unknown": ""
+ },
+ "rv32m_mul": {
+  "ge": 10611,
+  "ff": 0,
+  "lut4": 3310,
+  "cells": 7055,
+  "unknown": ""
+ },
+ "pq_keccak_ls": {
+  "ge": 12730,
+  "ff": 656,
+  "lut4": 3959,
+  "cells": 6696,
+  "unknown": "",
+  "ram_bits": 3200
+ }
+}

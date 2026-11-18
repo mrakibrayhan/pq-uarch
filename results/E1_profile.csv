@@ -1,0 +1,187 @@
+scheme,op,category,cycles,share,cpi
+ml-kem-512,KeyGen,Keccak-f[1600],414855,0.5506,1.121
+ml-kem-512,KeyGen,SHAKE/SHA3 glue,31811,0.0422,1.258
+ml-kem-512,KeyGen,Other,1657,0.0022,1.205
+ml-kem-512,KeyGen,Memory ops,3976,0.0053,1.436
+ml-kem-512,KeyGen,Sampling,27774,0.0369,1.089
+ml-kem-512,KeyGen,NTT / INTT,90452,0.1201,1.477
+ml-kem-512,KeyGen,Pointwise / basemul,40910,0.0543,1.335
+ml-kem-512,KeyGen,Modular reduction,120408,0.1598,1.25
+ml-kem-512,KeyGen,Poly add/sub/shift,11296,0.015,1.374
+ml-kem-512,KeyGen,Pack / compress / round,10304,0.0137,1.111
+ml-kem-512,Encaps,Keccak-f[1600],399490,0.4493,1.121
+ml-kem-512,Encaps,SHAKE/SHA3 glue,35523,0.04,1.282
+ml-kem-512,Encaps,Other,1140,0.0013,1.239
+ml-kem-512,Encaps,Memory ops,2631,0.003,1.343
+ml-kem-512,Encaps,Sampling,28796,0.0324,1.083
+ml-kem-512,Encaps,NTT / INTT,133373,0.15,1.388
+ml-kem-512,Encaps,Pointwise / basemul,61365,0.069,1.335
+ml-kem-512,Encaps,Poly add/sub/shift,19750,0.0222,1.374
+ml-kem-512,Encaps,Modular reduction,186450,0.2097,1.221
+ml-kem-512,Encaps,Pack / compress / round,18288,0.0206,1.096
+ml-kem-512,Encaps,Verify / cmov,2304,0.0026,1.286
+ml-kem-512,Decaps,SHAKE/SHA3 glue,52358,0.0472,1.196
+ml-kem-512,Decaps,Keccak-f[1600],399490,0.3603,1.121
+ml-kem-512,Decaps,Other,628,0.0006,1.353
+ml-kem-512,Decaps,Memory ops,2555,0.0023,1.338
+ml-kem-512,Decaps,Sampling,28796,0.026,1.083
+ml-kem-512,Decaps,NTT / INTT,207976,0.1876,1.4
+ml-kem-512,Decaps,Pointwise / basemul,81820,0.0738,1.335
+ml-kem-512,Decaps,Poly add/sub/shift,25386,0.0229,1.374
+ml-kem-512,Decaps,Modular reduction,266856,0.2407,1.22
+ml-kem-512,Decaps,Pack / compress / round,32514,0.0293,1.109
+ml-kem-512,Decaps,Verify / cmov,10378,0.0094,1.39
+ml-kem-768,KeyGen,Sampling,51271,0.0411,1.093
+ml-kem-768,KeyGen,Keccak-f[1600],660695,0.5297,1.121
+ml-kem-768,KeyGen,SHAKE/SHA3 glue,56612,0.0454,1.271
+ml-kem-768,KeyGen,Other,1895,0.0015,1.223
+ml-kem-768,KeyGen,Memory ops,6613,0.0053,1.421
+ml-kem-768,KeyGen,NTT / INTT,135672,0.1088,1.477
+ml-kem-768,KeyGen,Pointwise / basemul,92031,0.0738,1.335
+ml-kem-768,KeyGen,Modular reduction,201729,0.1617,1.247
+ml-kem-768,KeyGen,Poly add/sub/shift,25393,0.0204,1.374
+ml-kem-768,KeyGen,Pack / compress / round,15448,0.0124,1.111
+ml-kem-768,Encaps,Sampling,53385,0.0369,1.09
+ml-kem-768,Encaps,Keccak-f[1600],676060,0.4669,1.121
+ml-kem-768,Encaps,SHAKE/SHA3 glue,59902,0.0414,1.277
+ml-kem-768,Encaps,Other,1368,0.0009,1.26
+ml-kem-768,Encaps,Memory ops,4500,0.0031,1.337
+ml-kem-768,Encaps,NTT / INTT,185365,0.128,1.391
+ml-kem-768,Encaps,Pointwise / basemul,122708,0.0847,1.335
+ml-kem-768,Encaps,Poly add/sub/shift,36665,0.0253,1.375
+ml-kem-768,Encaps,Modular reduction,281325,0.1943,1.221
+ml-kem-768,Encaps,Pack / compress / round,24513,0.0169,1.091
+ml-kem-768,Encaps,Verify / cmov,2304,0.0016,1.286
+ml-kem-768,Decaps,Sampling,53385,0.0307,1.09
+ml-kem-768,Decaps,SHAKE/SHA3 glue,84100,0.0484,1.206
+ml-kem-768,Decaps,Keccak-f[1600],676060,0.3887,1.121
+ml-kem-768,Decaps,Other,861,0.0005,1.356
+ml-kem-768,Decaps,Memory ops,4424,0.0025,1.334
+ml-kem-768,Decaps,NTT / INTT,282578,0.1625,1.406
+ml-kem-768,Decaps,Pointwise / basemul,153385,0.0882,1.335
+ml-kem-768,Decaps,Poly add/sub/shift,45119,0.0259,1.375
+ml-kem-768,Decaps,Modular reduction,382467,0.2199,1.22
+ml-kem-768,Decaps,Pack / compress / round,43432,0.025,1.103
+ml-kem-768,Decaps,Verify / cmov,13578,0.0078,1.399
+ml-kem-1024,KeyGen,Sampling,86193,0.0441,1.098
+ml-kem-1024,KeyGen,Keccak-f[1600],1060185,0.5429,1.121
+ml-kem-1024,KeyGen,SHAKE/SHA3 glue,87147,0.0446,1.262
+ml-kem-1024,KeyGen,Other,2190,0.0011,1.241
+ml-kem-1024,KeyGen,Memory ops,9784,0.005,1.409
+ml-kem-1024,KeyGen,NTT / INTT,180892,0.0926,1.477
+ml-kem-1024,KeyGen,Pointwise / basemul,163596,0.0838,1.335
+ml-kem-1024,KeyGen,Modular reduction,297130,0.1522,1.245
+ml-kem-1024,KeyGen,Poly add/sub/shift,45126,0.0231,1.375
+ml-kem-1024,KeyGen,Pack / compress / round,20592,0.0105,1.111
+ml-kem-1024,Encaps,Sampling,88307,0.0403,1.097
+ml-kem-1024,Encaps,Keccak-f[1600],1075550,0.491,1.121
+ml-kem-1024,Encaps,SHAKE/SHA3 glue,90437,0.0413,1.267
+ml-kem-1024,Encaps,Other,1649,0.0008,1.279
+ml-kem-1024,Encaps,Memory ops,6903,0.0032,1.334
+ml-kem-1024,Encaps,NTT / INTT,237357,0.1084,1.393
+ml-kem-1024,Encaps,Pointwise / basemul,204495,0.0934,1.335
+ml-kem-1024,Encaps,Poly add/sub/shift,59216,0.027,1.375
+ml-kem-1024,Encaps,Modular reduction,390280,0.1782,1.221
+ml-kem-1024,Encaps,Pack / compress / round,33861,0.0155,1.067
+ml-kem-1024,Encaps,Verify / cmov,2304,0.0011,1.286
+ml-kem-1024,Decaps,Sampling,88307,0.0345,1.097
+ml-kem-1024,Decaps,SHAKE/SHA3 glue,126158,0.0493,1.204
+ml-kem-1024,Decaps,Keccak-f[1600],1075550,0.4203,1.121
+ml-kem-1024,Decaps,Other,1142,0.0004,1.363
+ml-kem-1024,Decaps,Memory ops,6827,0.0027,1.332
+ml-kem-1024,Decaps,NTT / INTT,357180,0.1396,1.409
+ml-kem-1024,Decaps,Pointwise / basemul,245394,0.0959,1.335
+ml-kem-1024,Decaps,Poly add/sub/shift,70488,0.0275,1.375
+ml-kem-1024,Decaps,Modular reduction,512158,0.2001,1.219
+ml-kem-1024,Decaps,Pack / compress / round,57517,0.0225,1.071
+ml-kem-1024,Decaps,Verify / cmov,18378,0.0072,1.407
+ml-dsa-44,KeyGen,SHAKE/SHA3 glue,310684,0.1204,1.161
+ml-dsa-44,KeyGen,Keccak-f[1600],1576449,0.6108,1.121
+ml-dsa-44,KeyGen,Other,1561,0.0006,1.268
+ml-dsa-44,KeyGen,Memory ops,8204,0.0032,1.599
+ml-dsa-44,KeyGen,NTT / INTT,198206,0.0768,1.348
+ml-dsa-44,KeyGen,Modular reduction,198798,0.077,1.243
+ml-dsa-44,KeyGen,Pack / compress / round,53394,0.0207,1.188
+ml-dsa-44,KeyGen,Poly add/sub/shift,45130,0.0175,1.374
+ml-dsa-44,KeyGen,Pointwise / basemul,66061,0.0256,1.451
+ml-dsa-44,KeyGen,Sampling,122483,0.0475,1.109
+ml-dsa-44,Sign,SHAKE/SHA3 glue,685616,0.0686,1.146
+ml-dsa-44,Sign,Keccak-f[1600],3454052,0.3458,1.121
+ml-dsa-44,Sign,Other,3293,0.0003,1.314
+ml-dsa-44,Sign,Memory ops,41840,0.0042,1.599
+ml-dsa-44,Sign,NTT / INTT,2362791,0.2366,1.345
+ml-dsa-44,Sign,Modular reduction,2072506,0.2075,1.239
+ml-dsa-44,Sign,Pack / compress / round,507416,0.0508,1.235
+ml-dsa-44,Sign,Poly add/sub/shift,274288,0.0275,1.374
+ml-dsa-44,Sign,Pointwise / basemul,485357,0.0486,1.451
+ml-dsa-44,Sign,Sampling,100393,0.0101,1.142
+ml-dsa-44,Verify,SHAKE/SHA3 glue,294394,0.1085,1.155
+ml-dsa-44,Verify,Keccak-f[1600],1521135,0.5607,1.121
+ml-dsa-44,Verify,Other,570,0.0002,1.397
+ml-dsa-44,Verify,Verify / cmov,650,0.0002,1.332
+ml-dsa-44,Verify,NTT / INTT,312453,0.1152,1.356
+ml-dsa-44,Verify,Modular reduction,272526,0.1005,1.231
+ml-dsa-44,Verify,Pack / compress / round,85916,0.0317,1.302
+ml-dsa-44,Verify,Poly add/sub/shift,53357,0.0197,1.405
+ml-dsa-44,Verify,Pointwise / basemul,82555,0.0304,1.451
+ml-dsa-44,Verify,Sampling,89478,0.033,1.114
+ml-dsa-65,KeyGen,SHAKE/SHA3 glue,567676,0.1248,1.161
+ml-dsa-65,KeyGen,Keccak-f[1600],2888620,0.635,1.121
+ml-dsa-65,KeyGen,Other,2040,0.0004,1.296
+ml-dsa-65,KeyGen,Memory ops,10252,0.0023,1.599
+ml-dsa-65,KeyGen,NTT / INTT,274461,0.0603,1.347
+ml-dsa-65,KeyGen,Modular reduction,304344,0.0669,1.243
+ml-dsa-65,KeyGen,Pack / compress / round,80066,0.0176,1.221
+ml-dsa-65,KeyGen,Poly add/sub/shift,84599,0.0186,1.375
+ml-dsa-65,KeyGen,Pointwise / basemul,123944,0.0272,1.451
+ml-dsa-65,KeyGen,Sampling,212848,0.0468,1.15
+ml-dsa-65,Sign,SHAKE/SHA3 glue,1140552,0.0647,1.149
+ml-dsa-65,Sign,Keccak-f[1600],5732682,0.3252,1.121
+ml-dsa-65,Sign,Other,4486,0.0003,1.331
+ml-dsa-65,Sign,Memory ops,68688,0.0039,1.599
+ml-dsa-65,Sign,NTT / INTT,4107965,0.233,1.343
+ml-dsa-65,Sign,Modular reduction,3855309,0.2187,1.239
+ml-dsa-65,Sign,Pack / compress / round,699348,0.0397,1.239
+ml-dsa-65,Sign,Poly add/sub/shift,636101,0.0361,1.374
+ml-dsa-65,Sign,Pointwise / basemul,1097178,0.0622,1.451
+ml-dsa-65,Sign,Sampling,285776,0.0162,1.118
+ml-dsa-65,Verify,SHAKE/SHA3 glue,521260,0.1142,1.158
+ml-dsa-65,Verify,Keccak-f[1600],2673510,0.586,1.121
+ml-dsa-65,Verify,Other,962,0.0002,1.398
+ml-dsa-65,Verify,Verify / cmov,810,0.0002,1.35
+ml-dsa-65,Verify,NTT / INTT,434411,0.0952,1.355
+ml-dsa-65,Verify,Modular reduction,408792,0.0896,1.231
+ml-dsa-65,Verify,Pack / compress / round,111169,0.0244,1.322
+ml-dsa-65,Verify,Poly add/sub/shift,96941,0.0212,1.399
+ml-dsa-65,Verify,Pointwise / basemul,148681,0.0326,1.451
+ml-dsa-65,Verify,Sampling,165978,0.0364,1.111
+ml-dsa-87,KeyGen,SHAKE/SHA3 glue,995025,0.1296,1.161
+ml-dsa-87,KeyGen,Keccak-f[1600],4969041,0.6471,1.121
+ml-dsa-87,KeyGen,Other,2881,0.0004,1.325
+ml-dsa-87,KeyGen,Memory ops,14348,0.0019,1.6
+ml-dsa-87,KeyGen,NTT / INTT,373565,0.0487,1.347
+ml-dsa-87,KeyGen,Modular reduction,459040,0.0598,1.237
+ml-dsa-87,KeyGen,Pack / compress / round,104127,0.0136,1.186
+ml-dsa-87,KeyGen,Poly add/sub/shift,157886,0.0206,1.375
+ml-dsa-87,KeyGen,Pointwise / basemul,231329,0.0301,1.451
+ml-dsa-87,KeyGen,Sampling,371240,0.0483,1.108
+ml-dsa-87,Sign,SHAKE/SHA3 glue,1355567,0.0794,1.155
+ml-dsa-87,Sign,Keccak-f[1600],6683775,0.3914,1.121
+ml-dsa-87,Sign,Other,4095,0.0002,1.334
+ml-dsa-87,Sign,Memory ops,48783,0.0029,1.6
+ml-dsa-87,Sign,NTT / INTT,3277836,0.192,1.344
+ml-dsa-87,Sign,Modular reduction,3124921,0.183,1.236
+ml-dsa-87,Sign,Pack / compress / round,578503,0.0339,1.239
+ml-dsa-87,Sign,Poly add/sub/shift,608640,0.0356,1.375
+ml-dsa-87,Sign,Pointwise / basemul,1003378,0.0588,1.451
+ml-dsa-87,Sign,Sampling,389165,0.0228,1.11
+ml-dsa-87,Verify,SHAKE/SHA3 glue,946916,0.1214,1.159
+ml-dsa-87,Verify,Keccak-f[1600],4778515,0.6127,1.121
+ml-dsa-87,Verify,Other,1690,0.0002,1.399
+ml-dsa-87,Verify,Verify / cmov,973,0.0001,1.361
+ml-dsa-87,Verify,NTT / INTT,579217,0.0743,1.355
+ml-dsa-87,Verify,Modular reduction,594208,0.0762,1.229
+ml-dsa-87,Verify,Pack / compress / round,150780,0.0193,1.322
+ml-dsa-87,Verify,Poly add/sub/shift,174342,0.0224,1.393
+ml-dsa-87,Verify,Pointwise / basemul,264311,0.0339,1.451
+ml-dsa-87,Verify,Sampling,307796,0.0395,1.109

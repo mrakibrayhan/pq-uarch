@@ -1,0 +1,9 @@
+step1_simulator/build/
+step2_rtl_validation/build/
+__pycache__/
+*.aux
+*.log
+*.bbl
+*.blg
+*.out
+*.vvp

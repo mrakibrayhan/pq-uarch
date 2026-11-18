@@ -1,0 +1,23 @@
+% pqm4 numbers: mupq/pqm4 benchmarks.md (Cortex-M4, clean) [CHECK WITH AUTHOR: re-copy at submission]
+\begin{tabular}{llrrrr}\toprule
+Scheme & Op & Cycles (C1-TB5) & Instr. & CPI & Ratio vs pqm4 \\\midrule
+ML-KEM-512 & KeyGen & 753,443 & 630,588 & 1.20 & 1.26 \\
+ML-KEM-512 & Encaps & 889,110 & 740,978 & 1.20 & 1.27 \\
+ML-KEM-512 & Decaps & 1,108,757 & 912,788 & 1.22 & 1.25 \\
+ML-KEM-768 & KeyGen & 1,247,359 & 1,041,801 & 1.20 & 1.26 \\
+ML-KEM-768 & Encaps & 1,448,095 & 1,209,658 & 1.20 & 1.27 \\
+ML-KEM-768 & Decaps & 1,739,389 & 1,436,941 & 1.21 & 1.25 \\
+ML-KEM-1024 & KeyGen & 1,952,835 & 1,636,762 & 1.19 & 1.27 \\
+ML-KEM-1024 & Encaps & 2,190,359 & 1,837,281 & 1.19 & 1.28 \\
+ML-KEM-1024 & Decaps & 2,559,099 & 2,125,742 & 1.20 & 1.27 \\
+ML-DSA-44 & KeyGen & 2,580,971 & 2,220,248 & 1.16 & 1.38 \\
+ML-DSA-44 & Sign & 9,987,552 & 8,169,457 & 1.22 & 1.26 \\
+ML-DSA-44 & Verify & 2,713,034 & 2,305,170 & 1.18 & 1.31 \\
+ML-DSA-65 & KeyGen & 4,548,850 & 3,919,226 & 1.16 & 1.42 \\
+ML-DSA-65 & Sign & 17,628,084 & 14,358,664 & 1.23 & 1.43 \\
+ML-DSA-65 & Verify & 4,562,513 & 3,893,467 & 1.17 & 1.35 \\
+ML-DSA-87 & KeyGen & 7,678,482 & 6,644,720 & 1.16 & 1.44 \\
+ML-DSA-87 & Sign & 17,074,663 & 14,086,126 & 1.21 & 1.10 \\
+ML-DSA-87 & Verify & 7,798,749 & 6,690,240 & 1.17 & 1.39 \\
+\bottomrule
+\end{tabular}

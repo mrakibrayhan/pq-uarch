@@ -1,0 +1,12 @@
+\begin{tabular}{lllrrr}\toprule
+Source & Compiler & Opt. & ML-KEM-512 & ML-KEM-768 & ML-KEM-1024 \\\midrule
+PQClean (current) & clang & -O2 & 0 & 0 & 0 \\
+PQClean (current) & clang & -Os & 0 & 0 & 0 \\
+PQClean (current) & gcc & -O2 & 56 & 80 & 104 \\
+PQClean (current) & gcc & -Os & 56 & 80 & 104 \\
+pre-2024 (/ q in C) & clang & -O2 & 0 & 0 & 0 \\
+pre-2024 (/ q in C) & clang & -Os & 0 & 0 & 0 \\
+pre-2024 (/ q in C) & gcc & -O2 & 3640 & 4688 & 5736 \\
+pre-2024 (/ q in C) & gcc & -Os & 3640 & 4688 & 5736 \\
+\bottomrule
+\end{tabular}

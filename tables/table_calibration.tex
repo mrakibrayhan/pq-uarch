@@ -1,0 +1,18 @@
+\begin{tabular}{lrrrrrr}\toprule
+ & \multicolumn{3}{c}{serial multiplier} & \multicolumn{3}{c}{embedded multiplier}\\
+Pattern & RTL & sim (datasheet) & sim (calibrated) & RTL & sim (datasheet) & sim (calibrated)\\\midrule
+ALU (addi) & 1 & 1 & 1 & 1 & 1 & 1 \\
+load + dependent use & 3 & 3 & 3 & 3 & 3 & 3 \\
+store + load & 2 & 2 & 2 & 2 & 2 & 2 \\
+taken branch & 3 & 3 & 3 & 3 & 3 & 3 \\
+not-taken branch & 1 & 1 & 1 & 1 & 1 & 1 \\
+jal & 3 & 3 & 3 & 3 & 3 & 3 \\
+call + return & 9 & 9 & 9 & 9 & 9 & 9 \\
+mul & 35 & 34 & 35 & 4 & 3 & 4 \\
+mulh & 35 & 34 & 35 & 4 & 3 & 4 \\
+mulhu & 35 & 34 & 35 & 4 & 3 & 4 \\
+div & 39 & 37 & 39 & 39 & 37 & 39 \\
+remu & 39 & 37 & 39 & 39 & 37 & 39 \\
+mul + dependent add & 36 & 35 & 36 & 5 & 4 & 5 \\
+\bottomrule
+\end{tabular}

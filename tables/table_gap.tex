@@ -1,0 +1,14 @@
+% from the literature review; verify each cell [CHECK WITH AUTHOR]
+\resizebox{\linewidth}{!}{\begin{tabular}{lllllll}\toprule
+Work & FIPS 203/204 & KEM+DSA & Target & $\mu$arch DSE & ISE incl.\ Keccak & Timing leakage \\\midrule
+Alkim et al. 2020 & -- & -- & RV32 & partial & no Keccak & -- \\
+RISQ-V 2020 & -- & -- & RV32 & -- & yes & -- \\
+Karl et al. 2023 & -- & DSA only & RV32 & -- & yes & -- \\
+PQ.V.ALU.E 2024 & -- & yes & RV32 & partial & no Keccak & -- \\
+PQCUARK 2025 & yes & yes & RV64 & -- & yes & -- \\
+KyberSlash 2025 & partly & KEM & real HW & -- & -- & fixed platforms \\
+Mishra et al. 2026 & -- & -- & RV64 cores & whole cores & -- & yes (not PQC) \\
+Phantom 2026 & yes & KEM & one M4 & -- & -- & one core \\
+This work & yes & yes & RV32 in-order & yes & yes, latency-swept & per knob, with ISE \\
+\bottomrule
+\end{tabular}}
